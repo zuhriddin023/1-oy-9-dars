@@ -1,0 +1,117 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+ul {
+    list-style: none;
+}
+
+h4 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+
+nav {
+    padding: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    /* height: 100vh; */
+    margin: auto;
+    
+
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    margin: 30px;
+    font-size: 18px;
+}
+
+
+.ulist:hover {
+    border-bottom: 2px solid blue;
+}
+
+.qutilar {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.quti_1 {
+    background-color: #B71C1C;
+     width: 350px;
+    height: 378px;  
+
+}
+
+.quti_2 {
+    background-color: #6A1B9A;
+    width: 350px;
+    height: 378px; 
+}
+
+.quti_3 {
+    background-color: #303F9F;
+    width: 350px;
+    height: 378px; 
+   
+}
+
+.quti_4 {
+    background: #00695C;
+    width: 350px;
+    height: 378px; 
+
+}
+h3 {
+    padding: 7.5px 15px;
+}
+p {
+    margin: 7.5px 15px;
+}
+h2 {
+    text-align: center;
+    padding: 42px;
+}
+.section {
+    background: #EDEDED;
+
+}
+.rasm {
+    margin: 20px 30px;
+    width: 540px;
+    height: 551px;
+
+}
+.footer {
+    background: #3A3838;
+
+} 
+.footer h4  {
+    color: #fff;
+}
+.footer .ulist:hover {
+    color: #EF4423;
+}
+.footer nav {
+    color: #fff;  
+}
+
